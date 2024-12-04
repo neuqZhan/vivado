@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhan/vivado-repo/git-repo/cpu-02-neuqZhan/decoder/decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhan/vivado-repo/git-repo/cpu-02-neuqZhan/decoder/decoder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhan/vivado-repo/homework/decoder/decoder.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

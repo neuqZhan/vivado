@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+Input = 00000001, Output = 000
+Input = 00000010, Output = 001
+Input = 00000100, Output = 010
+Input = 00001000, Output = 011
+Input = 00010000, Output = 100
+Input = 00100000, Output = 101
+Input = 01000000, Output = 110
+Input = 10000000, Output = 111
+$finish called at time : 80 ns : File "C:/Users/zhan/vivado-repo/git-repo/cpu-02-neuqZhan/encoder/encoder_tb.v" Line 20

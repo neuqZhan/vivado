@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+Input = 000, Output = 00000001
+Input = 001, Output = 00000010
+Input = 010, Output = 00000100
+Input = 011, Output = 00001000
+Input = 100, Output = 00010000
+Input = 101, Output = 00100000
+Input = 110, Output = 01000000
+Input = 111, Output = 10000000
+$finish called at time : 80 ns : File "C:/Users/zhan/vivado-repo/git-repo/cpu-02-neuqZhan/decoder/decoder_tb.v" Line 20

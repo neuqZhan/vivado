@@ -1,0 +1,108 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Nov 30 18:27:04 2024
+# Process ID: 10288
+# Current directory: C:/Users/zhan/vivado-repo/srbj/srbj.runs/synth_1
+# Command line: vivado.exe -log srbj.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source srbj.tcl
+# Log file: C:/Users/zhan/vivado-repo/srbj/srbj.runs/synth_1/srbj.vds
+# Journal file: C:/Users/zhan/vivado-repo/srbj/srbj.runs/synth_1\vivado.jou
+# Running On: DESKTOP-HSP1B79, OS: Windows, CPU Frequency: 3187 MHz, CPU Physical cores: 8, Host memory: 8014 MB
+#-----------------------------------------------------------
+source srbj.tcl -notrace
+create_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 461.836 ; gain = 184.125
+Command: synth_design -top srbj -part xc7a200tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11068
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 909.418 ; gain = 443.660
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'srbj' [C:/Users/zhan/vivado-repo/srbj/srbj.srcs/sources_1/new/srbj.v:23]
+WARNING: [Synth 8-6104] Input port 'a' has an internal driver [C:/Users/zhan/vivado-repo/srbj/srbj.srcs/sources_1/new/srbj.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'srbj' (0#1) [C:/Users/zhan/vivado-repo/srbj/srbj.srcs/sources_1/new/srbj.v:23]
+WARNING: [Synth 8-3917] design srbj has port a driven by constant 0
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 1015.781 ; gain = 550.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1015.781 ; gain = 550.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbv676-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tfbv676-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1015.781 ; gain = 550.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 1015.781 ; gain = 550.023
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design srbj has port a driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:45 ; elapsed = 00:01:26 . Memory (MB): peak = 1239.516 ; gain = 773.758
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:01:26 . Memory (MB): peak = 1243.148 ; gain = 777.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:46 ; elapsed = 00:01:26 . Memory (MB): peak = 1243.148 ; gain = 777.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-11584] pin a is connected to multiple driven net where the other driver is constant
+ERROR: synthesis optimization failed, fatal insert_io failure.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:02 ; elapsed = 00:01:43 . Memory (MB): peak = 1243.148 ; gain = 777.391
+INFO: [Common 17-83] Releasing license: Synthesis
+8 Infos, 4 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 30 18:29:16 2024...

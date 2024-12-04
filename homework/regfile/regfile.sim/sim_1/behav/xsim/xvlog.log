@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhan/vivado-repo/git-repo/cpu-02-neuqZhan/regfile/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/zhan/vivado-repo/git-repo/cpu-02-neuqZhan/regfile/rf_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top

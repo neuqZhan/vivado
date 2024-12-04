@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+At time                    0, ina(0001) + inb(1010) + cin(0) = sum(1011)(11),cout(0)
+At time                 5000, ina(0010) + inb(1010) + cin(1) = sum(1101)(13),cout(0)
+At time                10000, ina(0010) + inb(1110) + cin(0) = sum(0000)( 0),cout(1)
+At time                15000, ina(0011) + inb(1100) + cin(1) = sum(0000)( 0),cout(1)
+At time                20000, ina(0111) + inb(1001) + cin(0) = sum(0000)( 0),cout(1)
+At time                25000, ina(0001) + inb(1100) + cin(1) = sum(1110)(14),cout(0)
+At time                30000, ina(0011) + inb(1100) + cin(0) = sum(1111)(15),cout(0)
+At time                35000, ina(0111) + inb(1111) + cin(1) = sum(0111)( 7),cout(1)
+$finish called at time : 40 ns : File "C:/Users/zhan/vivado-repo/adder4/adder4.srcs/sim_1/new/test_adder4.v" Line 17
