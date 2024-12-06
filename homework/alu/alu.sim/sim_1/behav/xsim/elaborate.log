@@ -5,7 +5,7 @@ Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 32 for port 'alu_control' [C:/Users/zhan/vivado-repo/alu/alu.srcs/sim_1/new/tb_simple_alu.v:10]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 32 for port 'alu_control' [C:/Users/zhan/vivado-repo/homework/alu/alu.srcs/sim_1/new/tb_simple_alu.v:10]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
