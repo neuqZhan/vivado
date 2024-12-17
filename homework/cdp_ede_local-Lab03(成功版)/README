@@ -1,0 +1,15 @@
+对应实验手册请参阅[《LoongArch CPU设计实验》](https://bookdown.org/ghostboy316/bookdown/chapter-fpga-board.html)。
+
+NOTE: 
+  1. minicpu_env/miniCPU/目录下的代码功能不全，是有意为之，无需提issue修正。
+  2. mycpu_env/myCPU/目录下的代码有功能错误，亦是有意为之，无需提issue修正。
+
+
+================================================================================
+实验安排简介
+================================================================================
+// minicpu_env
+exp5  : 5条指令单周期CPU，跑斐波那契数程序，给RTL填空方式。
+
+// mycpu_env  -  soc_dram i/f (distributed ram interface) 
+exp6  : 20条指令单周期CPU，测试规模缩减版func的n1~n20，给RTL找错误并修正。
