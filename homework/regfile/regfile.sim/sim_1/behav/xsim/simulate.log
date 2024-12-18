@@ -1,2 +1,7 @@
 Time resolution is 1 ps
-$finish called at time : 120 ns : File "C:/Users/zhan/vivado-repo/git-repo/cpu-02-neuqZhan/regfile/rf_tb.v" Line 189
+Read data1 = deadbeef from address  1
+Read data2 = 00000000 from address  0
+Read data1 = 12345678 from address  2
+Read data1 = deadbeef from address  1
+Read data2 = 12345678 from address  2
+$finish called at time : 120 ns : File "C:/Users/zhan/vivado-repo/homework/regfile/regfile.srcs/sim_1/new/rf_tb.v" Line 85

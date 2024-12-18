@@ -1,7 +1,7 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
-"../../../../../../git-repo/cpu-02-neuqZhan/regfile/regfile.v" \
-"../../../../../../git-repo/cpu-02-neuqZhan/regfile/rf_tb.v" \
+"../../../../regfile.srcs/sources_1/new/regfile.v" \
+"../../../../regfile.srcs/sim_1/new/rf_tb.v" \
 
 # compile glbl module
 verilog xil_defaultlib "glbl.v"
